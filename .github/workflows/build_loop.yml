@@ -289,11 +289,13 @@ jobs:
           /bin/bash -c "$(curl -fsSL \
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
           no_auth \
+          high_carb_limit \
           now_line \
           lnl_icon \
           watch_title \
           2hlollipop \
-          meal_week \
+          meal_days \
+          negative_insulin \
           basal_lock
 
           # the final customization listed above CANNOT have a continuation character
